@@ -1,0 +1,67 @@
+/*basic template*/
+nav{
+  padding-left: 40vw;
+  padding-top: 0.75em;
+  background: #E3E3E3;
+  height: 2em;
+  border-radius: 0.5em;
+  a{
+    padding: 0.5em;
+    font-family: 'Playfair Display', serif;
+    color: black
+  }
+}
+
+.main-display{
+  margin-left: 25vw;
+  height: 55vh;
+  width: 50vw;
+  border: 1px solid black;
+  background-image: url("../img/coffee.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 0.5em;
+}
+
+.main-name{
+  margin-top: 15vh;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 7em;
+  color: #B68200;
+}
+
+.main-display--opacity{
+  opacity: 1;
+}
+
+/*about/contact basic layout*/
+.about-div{
+  margin-left: 20vw;
+  width: 60vw;
+  height: 30vh;
+  background: #E3E3E3;
+  border-radius: 0.5em;
+}
+
+.p{
+  padding-top: 4em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-div{
+  padding-top: 5vh;
+  padding-left: 20vw;
+  margin-left: 20vw;
+  width: 40vw;
+  height: 20vh;
+  background: #E3E3E3;
+  border-radius: 0.5em;
+}
+
+table{
+  border: 1px solid black;
+  border-radius: 0.5em;
+  font-family: 'Playfair Display', serif;
+}
