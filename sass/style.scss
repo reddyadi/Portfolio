@@ -67,20 +67,38 @@ table{
 }
 
 .main-project{
-  width: 80vw;
-  height: 80vh;
+  width: 95vw;
+  min-height: 100vh;
   border-radius: 0.5em;
-  margin-left: 10vw;
+  margin-left: 2vw;
   background: #E3E3E3;
+}
+
+.main-project::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 footer{
   padding-left: 44vw;
-}i{
-  color:black;
-  padding: 0.5em;
+  i{
+    color: #B9B9B9;
+    padding: 0.25em;
+  }
 }
 
 .p1{
   font-family: 'Playfair Display', serif;
+  color: #B9B9B9;
+}
+
+.project-box{
+  width: 30vw;
+  height: 30vw;
+  border: 1px solid black;
+  float: left;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-radius: 0.5em;
 }
