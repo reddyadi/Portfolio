@@ -1,14 +1,15 @@
 /*basic template*/
 nav{
-  padding-left: 40vw;
-  padding-top: 0.75em;
+  padding-left: 39vw;
+  padding-top: 1.5em;
   background: #E3E3E3;
-  height: 2em;
+  height: 3em;
   border-radius: 0.5em;
   a{
     padding: 0.5em;
-    font-family: 'Playfair Display', serif;
-    color: black
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 1.25em;
   }
 }
 
@@ -45,25 +46,27 @@ nav{
 }
 
 .p{
-  padding-top: 4em;
+  padding-top: 2em;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', cursive;
+  color: white;
 }
 
 .contact-div{
   padding-top: 3vh;
-  padding-left: 20vw;
   margin-left: 20vw;
-  width: 40vw;
+  width: 60vw;
   height: 20vh;
   background: #E3E3E3;
   border-radius: 0.5em;
 }
 
 table{
-  border: 1px solid black;
+  border: 5px solid white;
   border-radius: 0.5em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  margin-left: 16vw;
 }
 
 .main-project{
@@ -89,14 +92,14 @@ footer{
 }
 
 .p1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', cursive;
   color: #B9B9B9;
 }
 
 .project-box{
   width: 30vw;
   height: 30vw;
-  border: 1px solid black;
+  border: 1px solid white;
   float: left;
   margin-left: 1em;
   margin-top: 1em;
