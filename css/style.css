@@ -26,7 +26,7 @@ nav {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 7em;
-  color: #B68200; }
+  color: white; }
 
 .main-display--opacity {
   opacity: 1; }
@@ -35,7 +35,7 @@ nav {
 .about-div {
   margin-left: 20vw;
   width: 60vw;
-  height: 32vh;
+  height: 30vh;
   background: #E3E3E3;
   border-radius: 0.5em; }
 
@@ -58,14 +58,15 @@ table {
   border-radius: 0.5em;
   font-family: 'Comfortaa', cursive;
   color: white;
-  margin-left: 16vw; }
+  margin-left: 18vw; }
 
 .main-project {
   width: 95vw;
   min-height: 100vh;
   border-radius: 0.5em;
   margin-left: 2vw;
-  background: #E3E3E3; }
+  background: #E3E3E3;
+  padding-bottom: 0.5em; }
 
 .main-project::after {
   content: '';
@@ -85,10 +86,40 @@ footer {
 .project-box {
   width: 30vw;
   height: 30vw;
-  border: 1px solid white;
+  border: 3px solid white;
   float: left;
   margin-left: 1em;
   margin-top: 1em;
   border-radius: 0.5em; }
+
+.img-box {
+  height: 50%;
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  margin-left: 20%;
+  margin-top: 3%; }
+
+.txt-box {
+  height: 40%;
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  margin-left: 10%;
+  margin-top: 3%;
+  text-align: center; }
+
+.view-btn {
+  font-family: 'Comfortaa', cursive;
+  height: 5vh;
+  width: 10vw;
+  border: 3px solid white;
+  border-radius: 0.5em;
+  color: #B9B9B9;
+  font-size: 1.2em; }
+
+.p2 {
+  font-family: 'Comfortaa', cursive;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
